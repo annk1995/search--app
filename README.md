@@ -1,6 +1,8 @@
 # SearchApp
+##Description
+This is a Github Search Web page that makes use of the github Api. One can search for a user using their username and for repositories. The landing page is a summary of my github account.
 
-This project is used to find any github user annd showcase the work they have done.
+
 
 ## Table of contents
 
