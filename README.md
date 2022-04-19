@@ -5,18 +5,25 @@ This project is used to find any github user annd showcase the work they have do
 ## Table of contents
 
 Description
+
 Live Link
+
 Installation
+
 Technologies
+
 Dependencies
+
 Development
+
 Contact-Info
+
 License
 
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
 
 ## Build
 
