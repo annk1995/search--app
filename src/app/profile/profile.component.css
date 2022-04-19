@@ -7,6 +7,10 @@
 .stats{
     margin-top: 250px;
 }
+#follow{
+    margin-bottom: 250px;
+    color: yellow;
+}
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
