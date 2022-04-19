@@ -18,8 +18,6 @@ Development
 
 Contact-Info
 
-License
-
 
 ## Live link
 
@@ -44,10 +42,10 @@ HTML
 
 ## Dependencies
 
-This is a Github Search Web page that makes use of the github Api. One can search for a user using their username and for repositories. The landing page is a summary of my github account.
+GitHup API
 
 
 
-## Further help
+## contact info
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+kabuikariuki052@gmail.com
