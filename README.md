@@ -24,8 +24,9 @@ Click on this link to access the live site.this is the live link https://annk199
 
 
 ## Installation
+One can clone the repository to have it in their local storage. git clone https://github.com/annk1995/search--app.git
 
-
+Or One can fork the repository and have it in their remote storage.
 
 ## Technologies used
 
