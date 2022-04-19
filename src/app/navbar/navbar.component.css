@@ -1,5 +1,8 @@
 .links a{
-    border-radius: 30px;
+    background-color: rgb(158, 235, 250) !important;
+    border-radius: 20px;
+    
+    margin-left: 100px;
     padding: 5px;
     font-size:30px;
 }
