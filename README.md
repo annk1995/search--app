@@ -10,6 +10,8 @@ Description
 
 Live Link
 
+BDD
+
 Installation
 
 Technologies
@@ -24,11 +26,33 @@ Contact-Info
 ## Live link
 Click on this link to access the live site.this is the live link https://annk1995.github.io/search--app/
 
+#BDD
+
+The user should:
+
+write any name of the person they want to search
+after that press on the search button,go to the repositories and see their work on github
+
+Submit
+
+A pop will show notifying the user their Quote has been added
+
+
 
 ## Installation
 One can clone the repository to have it in their local storage. git clone https://github.com/annk1995/search--app.git
 
-Or One can fork the repository and have it in their remote storage.
+
+Or fork this repo and download the resulting zip file
+
+
+Extract zip to our working directory and open using favorite text editor
+
+
+Make sure you have access to all the linked cdns and fonts
+
+
+Launch the website using a local live server to view on the web
 
 ## Technologies used
 
