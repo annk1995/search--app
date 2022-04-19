@@ -15,7 +15,7 @@
   <div *ngIf="user">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title pt-4 text-dark text-center" style="font-size: 20px;"><strong><u>GitHub Profile:</u> {{user.name}}</strong>
+        <h3 class="panel-title pt-4 text-dark text-center" style="font-size: 20px;"><strong>GitHub Profile: {{user.name}}</strong>
         </h3>
       </div>
       <div class="panel-body">
@@ -32,8 +32,8 @@
               <p class="text-white" style="font-size: 20px;">{{user.bio}}</p>
               <span class="label label-success text-pink bg-primary p-1">{{user.public_repos}} Public
                 Repositories</span>&nbsp;
-              <span class="label label-info text-pink bg-light p-1">{{user.followers}} Followers</span>&nbsp;
-              <span class="label label-info text-pink bg-info p-1">{{user.following}} Following</span>&nbsp;
+              <span class="label label-info bg-light p-1">{{user.followers}} Followers</span>&nbsp;
+              <span class="label label-info  bg-info p-1">{{user.following}} Following</span>&nbsp;
             </div>
             <br />
           </div>
