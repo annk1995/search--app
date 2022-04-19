@@ -42,9 +42,11 @@ Bootstrap + CSS
 HTML
 
 
-## Running end-to-end tests
+## Dependencies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This is a Github Search Web page that makes use of the github Api. One can search for a user using their username and for repositories. The landing page is a summary of my github account.
+
+
 
 ## Further help
 
