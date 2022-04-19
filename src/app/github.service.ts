@@ -1,0 +1,39 @@
+import { Injectable } from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import { map } from "rxjs/operators"; 
+import { User } from './user';
+import {Repos} from './repos';
+import {environment} from '../environments/environment';
+
+
+@Injectable()
+export class GithubService {
+  username: string;
+  // result:any
+
+  constructor(private _http: HttpClient) {
+    console.log('Github Service Ready...');
+    this.username =  'Paullete';
+
+  }
+  getUser() {
+    interface ApiResponse{
+
+    }
+    // let promise = new Promise<void>((resolve, reject)=>{
+    return this._http.get('https://api.github.com/users/' + this.username)
+    .pipe(map(result => result));
+    // })
+
+
+
+
+  }
+  getRepos() {
+    return this._http.get(' https://api.github.com/users/' + this.username + '/repos')
+    .pipe(map(result=> result));
+}
+updateUser(username: string) {
+  this.username = username;
+}
+}

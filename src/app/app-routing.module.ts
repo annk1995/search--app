@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { ProfileComponent } from './profile/profile/profile.component';
-import { NavbarComponent } from './navbar/navbar/navbar.component';
-import { MyReposComponent } from './my-repos/my-repos/my-repos.component';
+import { ProfileComponent } from './profile/profile.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MyReposComponent } from './my-repos/my-repos.component';
 
 const routes: Routes = [
 
@@ -18,4 +18,4 @@ const routes: Routes = [
     RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class MyRoutingModule { }
