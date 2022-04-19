@@ -32,9 +32,13 @@ License
 ## Technologies used
 
 Angular
+
 Typescript
+
 Javascript
+
 Bootstrap + CSS
+
 HTML
 
 
